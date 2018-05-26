@@ -1,5 +1,7 @@
 import { injectGlobal } from 'styled-components';
 
+import 'font-awesome/css/font-awesome.css';
+
 injectGlobal`
   * {
     margin: 0;
@@ -12,5 +14,6 @@ injectGlobal`
     background: #9B65E5;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
+    font-family: 'Nunito', sans-serif;
   }
 `;
